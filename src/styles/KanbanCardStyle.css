@@ -1,0 +1,80 @@
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  max-width: 400px;
+  font-family: Arial, sans-serif;
+  display: block;
+  margin-top: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.card-id {
+  font-size: 14px;
+  color: #8c8c8c;
+}
+
+.user-initials {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.card-title {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #333;
+  font-weight: normal;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.exclamation {
+  font-size: 12px;
+  color: black;
+}
+
+.card-label {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #5a5a5a;
+}
+
+
+.image-size{
+  max-width: 15px;
+  max-height: 15px;
+}
